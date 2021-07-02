@@ -2,7 +2,7 @@ function jailbreak(){
 var ropchain_array = new Uint32Array(482118);
 var ropchain = read_ptr_at(addrof(ropchain_array)+0x10);
 
-setTimeout(function() {KaroModMSZ_MGS();}, 9000);
+var time = setTimeout(function() {KaroModMSZ_MGS();}, 90000);
 
 
 function KaroModMSZ_MGS(){
