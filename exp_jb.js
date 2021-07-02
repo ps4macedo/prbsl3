@@ -150680,4 +150680,4 @@ else {
   window.msgs.innerHTML="<h1 style='font-size:30px;'>Exploração do kernel falhou! Reinicie o PS4 e tente novamente.</h1>";
 }
 }
-}, 120000);
+}, 2000);
