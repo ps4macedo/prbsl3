@@ -2,7 +2,10 @@ function jailbreak(){
 var ropchain_array = new Uint32Array(482118);
 var ropchain = read_ptr_at(addrof(ropchain_array)+0x10);
 
-setTimeout(function() { 
+setTimeout(function() {KaroModMSZ_MGS();}, 9000);
+
+
+function KaroModMSZ_MGS(){
 
 var ropchain_offset = 2;
 function set_gadget(val)
@@ -150680,4 +150683,4 @@ else {
   window.msgs.innerHTML="<h1 style='font-size:30px;'>Exploração do kernel falhou! Reinicie o PS4 e tente novamente.</h1>";
 }
 }
-}, 2000);
+}
