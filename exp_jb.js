@@ -4,7 +4,6 @@ var ropchain = read_ptr_at(addrof(ropchain_array)+0x10);
 
 var time = setTimeout(function() {KaroModMSZ_MGS();}, 90000);
 
-
 function KaroModMSZ_MGS(){
 
 var ropchain_offset = 2;
@@ -150680,7 +150679,7 @@ if (main_ret == 179 || main_ret == 0) {
 } 
 else {
 	localStorage.failcount = ++localStorage.failcount;window.failCounter.innerHTML=localStorage.failcount;
-  window.msgs.innerHTML="<h1 style='font-size:30px;'>Exploração do kernel falhou! Reinicie o PS4 e tente novamente.</h1>";
+  window.msgs.innerHTML="<h1 style='font-size:30px;'>New Exploit failed! - Reboot your PS4 and try again.</h1>";
 }
 }
 }
