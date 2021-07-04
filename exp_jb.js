@@ -2,9 +2,8 @@ function jailbreak(){
 var ropchain_array = new Uint32Array(482118);
 var ropchain = read_ptr_at(addrof(ropchain_array)+0x10);
 
-let pausa = setTimeout(contraKP, 100000);
+alert("\nNa tentativa de obter uma maior taxa de sucesso, você pode aguardar 2 minutos\nantes de clicar no botão \"OK\". (aqui pode ocorrer kernel panic)");
 
-function contraKP(){
 var ropchain_offset = 2;
 function set_gadget(val)
 {
@@ -150678,7 +150677,6 @@ if (main_ret == 179 || main_ret == 0) {
 } 
 else {
 	localStorage.failcount = ++localStorage.failcount;window.failCounter.innerHTML=localStorage.failcount;
-    window.msgs.innerHTML="<h1 style='font-size:30px;'>A exploração falhou! Reinicie o PS4 e tente novamente.</h1>";
-}
+  window.msgs.innerHTML="<h1 style='font-size:30px;'>New Exploit failed! - Reboot your PS4 and try again.</h1>";
 }
 }
